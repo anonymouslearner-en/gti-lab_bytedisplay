@@ -21,7 +21,7 @@ Das eingelesene Byte wird hier durch die Veränderung eines Potis
 vorgegeben. Die Steuerung soll auf einem µC (AT-Mega 328, Arduino Uno)
 realisiert werden.
 
-> [!ATTENTION]
+> [!WARNING]
 > Bitte nutzen Sie anstatt des bekannten int main(void) Aufbaus eine void setup() + void loop() Struktur, wie folgend dargestellt. Die Funktion setup() wird dabei bei der Abarbeitung einmal durchlaufen und die Funktion loop() anschließend permanent.
 
 Folgende Pin Belegung ist zu beachten
