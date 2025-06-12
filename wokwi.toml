@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+# firmware: Specifies the binary to run on the simulated microcontroller
+firmware = ".pio/build/wokwi/firmware.elf"
+# elf: Provides debug symbols for source-level debugging, breakpoints, and variable inspection
+elf = ".pio/build/wokwi/firmware.elf"

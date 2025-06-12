@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "author": "Markus Stockmann",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 103.56,
+      "left": 8.4,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot1",
+      "top": 219.11,
+      "left": -110.34,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -20.33,
+      "left": 327.65,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -46.66,
+      "left": 289.61,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg1",
+      "top": -50.25,
+      "left": 46.26,
+      "attrs": { "digits": "4", "common": "cathode" }
+    }
+  ],
+  "connections": [
+    ["pot1:GND", "uno:GND.3", "black", ["v83.38", "h271.69", "v-1.87"]],
+    ["pot1:VCC", "uno:5V", "red", ["v68.45", "h229.3", "v-13.06"]],
+    ["pot1:SIG", "uno:A0", "green", ["v76.85", "h1.4"]],
+    ["led2:A", "uno:13", "green", ["v61.45", "h-0.04"]],
+    ["led1:A", "uno:1", "green", ["v71.03", "h5.81"]],
+    ["led2:C", "uno:GND.2", "green", ["v392.62", "h-129.68"]],
+    ["led1:C", "uno:GND.2", "green", ["v380.92", "h-26.75"]],
+    [
+      "sevseg1:A",
+      "uno:2",
+      "green",
+      ["v-48.2", "h157.96", "v173.45", "h-35.02"]
+    ],
+    [
+      "sevseg1:B",
+      "uno:3",
+      "green",
+      ["v-39.24", "h107.34", "v156.35", "h-29.32"]
+    ],
+    ["sevseg1:C", "uno:4", "green", ["v14.05", "h115.96", "v26.06", "h-30.94"]],
+    ["sevseg1:D", "uno:5", "green", ["v19.75", "h121.32", "v9.77", "h-23.62"]],
+    ["sevseg1:E", "uno:6", "green", ["v25.45", "h94.27"]],
+    ["sevseg1:F", "uno:7", "green", ["v-14", "h-92.68", "v122.96", "h160.42"]],
+    ["sevseg1:G", "uno:8", "green", ["v48.26", "h29.81"]],
+    [
+      "sevseg1:DIG1",
+      "uno:9",
+      "green",
+      ["v-24.58", "h-83.25", "v147.39", "h144.13"]
+    ],
+    [
+      "sevseg1:DIG2",
+      "uno:10",
+      "green",
+      ["v-35.17", "h-124.27", "v166.94", "h144.95"]
+    ],
+    [
+      "sevseg1:DIG3",
+      "uno:11",
+      "green",
+      ["v-49.83", "h-146.9", "v190.55", "h152.28"]
+    ],
+    ["sevseg1:DIG4", "uno:12", "green", ["v77.57", "h-35.16"]]
+  ],
+  "dependencies": {}
+}
