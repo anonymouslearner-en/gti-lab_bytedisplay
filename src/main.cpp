@@ -1,24 +1,14 @@
 /**
- * @file            Byte auf Display darstellen
+ * @name            Byte auf Display darstellen
  *
- * @brief           Praktikumsvorbereitung
- *                  Praktische Informatik 2 | TH Köln
+ * @brief           Praktikumsaufgabe GTI
+ *                  Grundlagen der technischen Informatik | TH Köln (SS2025)
  *
  * @author          Prof. Dr. Markus Stockmann
- * @version
+ * @version         v1
  */
 
 #include <Arduino.h>
-
-/*
-    ACHTUNG:
-
-    Bitte nutzen Sie anstatt des bekannten int main(void) Aufbaus
-    eine void setup() + void loop() Struktur, wie folgend dargestellt.
-
-    Die Funktion setup() wird dabei bei der Abarbeitung einmal durchlaufen
-    und die Funktion loop() anschließend permanent.
- */
 
 // typ bool ist bereits deklariert
 typedef unsigned char uint8_t;
@@ -35,45 +25,47 @@ typedef enum { K0 = 0, K1, K2, K3, K4, K5, K6, K7 } CHANNEL;
 ------------------------------------------------------------------- */
 
 /**
- * @fn        Pre Setup
+ * @fn          Pre Setup
  *
- * @brief     Pseudofunktion zum Testen, ob reservierte Bits geaendert
- *            wurden
+ * @brief       Pseudofunktion zum Testen, ob reservierte Bits geaendert
+ *              wurden
  */
 void preSetup(void);
 
 /**
- * @fn        Input Byte
- * @note      HAS (Hardwareabstraktionsschicht)
+ * @fn          Input Byte
+ * @note        HAS (Hardwareabstraktionsschicht)
  *
- * @brief     Takes formatted stream input & populates data into a struct object
+ * @brief       Einlesen und Abspeichern an Adresse ReadValue
  *
- * @param[out] PortName
- * @param[out] ReadValue
- * @return    bool [true = operation successful] [false = operation unsuccesful]
+ * @param[in]   PortName The port to read from (PB, PC, or PD)
+ * @param[out]  ReadValue Pointer to store the read byte value
+ * @return      BYTE       Always returns 0
  */
 BYTE InputByte(PORT PortName, BYTE* ReadValue);
 
 /**
- * @fn        Input Byte
- * @note      HAS (Hardwareabstraktionsschicht)
+ * @fn          Output Byte
+ * @note        HAS (Hardwareabstraktionsschicht)
  *
- * @brief     Takes formatted stream input & populates data into a struct object
+ * @brief       Ausgabe des Bytes WriteValue am Port PortName
  *
- * @param[out] PortName
- * @param[out] ReadValue
- * @return    bool [true = operation successful] [false = operation unsuccesful]
+ * @param[in]   PortName  The port to write to (PB, PC, or PD)
+ * @param[in]   WriteValue The byte value to write to the specified port
+ * @return      BYTE        Always returns 0
  */
 BYTE OutputByte(PORT PortName, BYTE WriteValue);
 
 /**
- * @fn        Input Byte
+ * @fn          Read Potentiometer
  *
- * @brief     Takes formatted stream input & populates data into a struct object
+ * @brief       Liest den Potentiometer-Wert (0...1023) ein und wandelt ihn in
+ *              ein Byte (0...255) um.
  *
- * @param[out] PortName
- * @param[out] ReadValue
- * @return    bool [true = operation successful] [false = operation unsuccesful]
+ * @param[out]  valPoti Pointer to store the converted potentiometer value
+ *              (0-255)
+ * @return      int 0 if successful, non-zero error code otherwise
+ *              (Error occurs with ~2% probability as a simulation)
  */
 int readPoti(BYTE* valPoti);
 
@@ -91,7 +83,7 @@ void setup() {
 }
 
 /*
-      Set Up
+      Loop
 */
 
 void loop() {
@@ -100,7 +92,19 @@ void loop() {
 
   /** ------------------------------------------------------------------
 
-                        Ab hier Ihr Code
+                        Ihr Code ⬇
+
+
+
+
+
+
+
+
+
+
+
+                        Ihr Code ⬆
 
 ------------------------------------------------------------------- */
 
@@ -119,7 +123,7 @@ void loop() {
 
 ------------------------------------------------------------------- */
 
-//
+// Pre Setup Definition
 void preSetup(void) {
   // Pseudo-Funktion soll testen, ob reservierte Bits geändert wurden
   BYTE PDval = 0b00000000;
@@ -132,7 +136,7 @@ void preSetup(void) {
   OutputByte(PB, PBval);
 }
 
-//
+// Input Byte Definition
 BYTE InputByte(PORT PortName, BYTE* ReadValue) {
   // Hardwareabstraktionsschicht, Einlesen und Abspeichern an Adresse ReadValue
   if (PortName == PB) {
@@ -145,7 +149,7 @@ BYTE InputByte(PORT PortName, BYTE* ReadValue) {
   return 0;
 }
 
-//
+// Output Byte Definition
 BYTE OutputByte(PORT PortName, BYTE WriteValue) {
   // Hardwareabstraktionsschicht, Ausgabe des Bytes WriteValue am Port PortName
   if (PortName == PB) {
@@ -158,10 +162,8 @@ BYTE OutputByte(PORT PortName, BYTE WriteValue) {
   return 0;
 }
 
-//
+//  Read Potentiometer Definition
 int readPoti(BYTE* valPoti) {
-  // Funktion, die den PotiWert (0...1023) einlies und
-  // in ein Byte umwandelt.
   // Rueckgabewert <> 0 --> Fehler
   // Ergebnis wird an die Adresse von valPoti geschrieben
   int returnVal = 0;
