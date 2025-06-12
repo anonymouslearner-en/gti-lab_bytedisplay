@@ -2,6 +2,10 @@
 
 ##### Praktikumsaufgabe GTI SS2025 | TH Köln
 
+> [!INFO]
+> Dieses Repository ist ein inoffizielles Projekt, das darauf abzielt, es so einfach wie möglich zu machen, diese Projekte lokal mit Wokwi und PlatformIO auszuführen.
+> 🔗 Original-Projekt anzeigen[https://wokwi.com/projects/399199668591202305]
+
 ## Voraussetzungen
 
 - VS Code installiert
