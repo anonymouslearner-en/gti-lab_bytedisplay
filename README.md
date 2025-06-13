@@ -3,8 +3,9 @@
 ##### Praktikumsaufgabe GTI SS2025 | TH Köln
 
 > [!NOTE]
-> Dieses Repository ist ein inoffizielles Projekt, das darauf abzielt, es so einfach wie möglich zu machen, diese Projekte lokal mit Wokwi und PlatformIO auszuführen.
-> 🔗 Original-Projekt anzeigen[https://wokwi.com/projects/399199668591202305]
+> Dieses Repo ist ein inoffizielles Projekt mit dem Ziel, die lokale die Bearbeitung dieser Praktikumsaufgabe mit Wokwi und PlatformIO so einfach wie möglich zu gestalten. Basierend auf dem [Original-Projekt in Wokwi][1].
+
+[1]: https://wokwi.com/projects/399199668591202305
 
 ## Voraussetzungen
 
