@@ -90,7 +90,6 @@ int readPoti(BYTE* valPoti);
 */
 void setup() {
   // Code, der nur einmal ausgeführt wird
-  // pinMode();
 }
 
 /*
