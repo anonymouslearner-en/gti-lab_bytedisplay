@@ -69,17 +69,28 @@ BYTE OutputByte(PORT PortName, BYTE WriteValue);
  */
 int readPoti(BYTE* valPoti);
 
-/** ------------------------------------------------------------------
+/** ==================================================================
+                    Deklarationen Ihrer Funktionen ⬇
+=================================================================== **/
+//
+//
+//
+/** ==================================================================
+                    Deklarationen Ihrer Funktionen ⬆
+================================================================== **/
 
-                      Hauptprogramm
-                      (void setup() + void loop() Struktur)
+/**  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
-------------------------------------------------------------------- */
+                    ▶ HAUPTPROGRAMM ◀
+                    (void setup() + void loop() Struktur)
+
+ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ **/
 /*
       Set Up
 */
 void setup() {
   // Code, der nur einmal ausgeführt wird
+  // pinMode();
 }
 
 /*
@@ -90,23 +101,21 @@ void loop() {
 
   preSetup(); // Rote LED darf nicht leuchten, Gruene muss leuchten
 
-  /** ------------------------------------------------------------------
+  /** ==================================================================
+                      Ihr Code ⬇
+  =================================================================== **/
 
-                        Ihr Code ⬇
+  //
+  //
+  //
+  //
+  //
+  //
+  //
 
-
-
-
-
-
-
-
-
-
-
-                        Ihr Code ⬆
-
-------------------------------------------------------------------- */
+  /** ==================================================================
+                      Ihr Code ⬆
+  ================================================================== **/
 
   /*
       Do nothing more, wegen Umstrickung main() --> loop(), nach Fehler
@@ -138,7 +147,6 @@ void preSetup(void) {
 
 // Input Byte Definition
 BYTE InputByte(PORT PortName, BYTE* ReadValue) {
-  // Hardwareabstraktionsschicht, Einlesen und Abspeichern an Adresse ReadValue
   if (PortName == PB) {
     *ReadValue = PINB;
   } else if (PortName == PC) {
@@ -151,7 +159,6 @@ BYTE InputByte(PORT PortName, BYTE* ReadValue) {
 
 // Output Byte Definition
 BYTE OutputByte(PORT PortName, BYTE WriteValue) {
-  // Hardwareabstraktionsschicht, Ausgabe des Bytes WriteValue am Port PortName
   if (PortName == PB) {
     PORTB = WriteValue;
   } else if (PortName == PC) {
@@ -164,8 +171,6 @@ BYTE OutputByte(PORT PortName, BYTE WriteValue) {
 
 //  Read Potentiometer Definition
 int readPoti(BYTE* valPoti) {
-  // Rueckgabewert <> 0 --> Fehler
-  // Ergebnis wird an die Adresse von valPoti geschrieben
   int returnVal = 0;
   int randNumber = random(100); // Random number for error code
   int valPoti10Bit = analogRead(A0);
@@ -174,3 +179,19 @@ int readPoti(BYTE* valPoti) {
     returnVal = randNumber; // Return Value depending on random number
   return (returnVal);
 }
+
+/** ==================================================================
+                    Defintionen Ihrer Funktionen ⬇
+=================================================================== **/
+
+//
+//
+//
+//
+//
+//
+//
+
+/** ==================================================================
+                      Defintionen Ihrer Funktionen ⬆
+  ================================================================ **/
