@@ -16,13 +16,13 @@
 
 ### 📋 Inhaltsverzeichnis
 
-- [Voraussetzungen]()
-- [Projekt lokal einrichten]()
-  - [Option 1: ZIP-Download]()
-  - [Option 2: Git Clone]()
-- [Projekt ausführen]()
+- [Voraussetzungen](#voraussetzungen-1)
+- [Projekt lokal einrichten](#-projekt-lokal-einrichten)
+  - [Option 1: ZIP-Download](#option-1-zip-download)
+  - [Option 2: Git Clone](#option-2-git-clone)
+- [Projekt ausführen](#projekt-ausführen)
   - [Mit Wokwi-Simulator]()
-- [Feedback]()
+- [Feedback](#-feedback)
 
 ## Voraussetzungen
 
@@ -49,7 +49,7 @@ Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 3. **Entpacke die ZIP-Datei** in einen Ordner deiner Wahl
 4. **Öffne VS Code** und wähle "File" → "Open Folder"
 5. **Navigiere zu dem entpackten Ordner** und öffne ihn
-6. **Weiter zum nächsten Schritt:** [Projekt bauen und ausführen](#-projekt-ausführen)
+6. **Weiter zum nächsten Schritt:** [Projekt bauen und ausführen](#projekt-ausführen)
 
 ### Option 2: Git Clone
 
