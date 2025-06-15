@@ -16,8 +16,8 @@
 
 ### 📋 Inhaltsverzeichnis
 
-- [Voraussetzungen](#voraussetzungen-1)
-- [Projekt lokal einrichten](#-projekt-lokal-einrichten)
+- [Voraussetzungen](#voraussetzungen)
+- [Projekt lokal einrichten](#computer-projekt-lokal-einrichten)
   - [Option 1: ZIP-Download](#option-1-zip-download)
   - [Option 2: Git Clone](#option-2-git-clone)
 - [Projekt ausführen](#projekt-ausführen)
@@ -30,7 +30,7 @@
 - PlatformIO Extension für VS Code
 - Wokwi Extension für VS Code
 
-## 💻 Projekt lokal einrichten
+## :computer: Projekt lokal einrichten
 
 Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 
@@ -53,11 +53,9 @@ Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 
 ### Option 2: Git Clone
 
-(Fortgeschritten) Falls Sie Git bereits verwenden oder lernen möchten:
+(Fortgeschritten - falls Sie Git bereits verwenden oder lernen möchten)
 
-#### Voraussetzungen:
-
-Git ist auf Ihrem Computer bereits installiert
+**Voraussetzungen:** Git ist auf Ihrem Computer bereits installiert
 
 ```bash
 git clone https://github.com/anonymouslearner-en/gti-lab_bytedisplay.git
