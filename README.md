@@ -16,6 +16,7 @@
 
 ### 📋 Inhaltsverzeichnis
 
+- [Voraussetzungen]()
 - [Projekt lokal einrichten]()
   - [Option 1: ZIP-Download]()
   - [Option 2: Git Clone]()
@@ -37,8 +38,11 @@ Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 
 (Einfach - empfohlen für Anfänger)
 
-1. **Klicke auf den grünen "Code" Button** oben auf dieser Seite
-2. **Wähle "Download ZIP"** aus dem Dropdown-Menü
+1. Klicke auf den grünen **"Code" Button** oben auf dieser [Seite](#top)
+   <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/DownloadZIP_MenuItemArea.png?raw=true" width="450" height="auto">
+
+2. Wähle **"Download ZIP"** aus dem Dropdown-Menü
+   <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/DownloadZIP_MenuItem.png?raw=true" width="350" height="auto">
 3. **Entpacke die ZIP-Datei** in einen Ordner deiner Wahl
 4. **Öffne VS Code** und wähle "File" → "Open Folder"
 5. **Navigiere zu dem entpackten Ordner** und öffne ihn
@@ -51,6 +55,10 @@ Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 #### Voraussetzungen:
 
 Git ist auf Ihrem Computer bereits installiert
+
+```bash
+git clone https://github.com/anonymouslearner-en/gti-lab_bytedisplay.git
+```
 
 ## ⚙️ Projekt ausführen
 
