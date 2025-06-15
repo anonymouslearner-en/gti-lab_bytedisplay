@@ -10,7 +10,7 @@
 [1]: https://wokwi.com/projects/399199668591202305
 
 > [!IMPORTANT]
-> **→ [Zum eigentlichen Aufgabenblatt klicke hier][2]**
+> Diese Seite hilft Ihnen, dieses Projekt lokal einzurichten. Klicken Sie hier um direkt **[zum Aufgabenblatt zu gelangen][2].**
 
 [2]: AUFGABE.md
 
