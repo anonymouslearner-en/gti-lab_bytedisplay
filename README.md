@@ -72,8 +72,8 @@ Sie können eine lokale Kopie von diesem Projekt auf Ihrem Rechner erstellen, in
        git clone https://github.com/anonymouslearner-en/gti-lab_bytedisplay.git .
    ```
 
-   > [!CAUTION]
-   > Der **Punkt (.)** am Ende nicht vergessen (bedeutet "im aktuellen Ordner klonen")
+> [!CAUTION]
+> Der **Punkt (.)** am Ende nicht vergessen (bedeutet "im aktuellen Ordner klonen")
 
 ## ⚙️ Projekt ausführen
 
