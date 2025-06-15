@@ -16,11 +16,12 @@
 
 ### 📋 Inhaltsverzeichnis
 
-- Projekt lokal einrichten
-  - Option 1: ZIP-Download
-  - Option 2: Git Clone
-- Projekt ausführen
-  - Mit Simulation
+- [Projekt lokal einrichten]()
+  - [Option 1: ZIP-Download]()
+  - [Option 2: Git Clone]()
+- [Projekt ausführen]()
+  - [Mit Wokwi-Simulator]()
+- [Feedback]()
 
 ## Voraussetzungen
 
@@ -30,9 +31,11 @@
 
 ## 💻 Projekt lokal einrichten
 
-Du hast zwei Möglichkeiten, dieses Projekt auf deinem Computer zu verwenden:
+Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 
-### Option 1: ZIP-Download (Einfach - empfohlen für Anfänger)
+### Option 1: ZIP-Download
+
+(Einfach - empfohlen für Anfänger)
 
 1. **Klicke auf den grünen "Code" Button** oben auf dieser Seite
 2. **Wähle "Download ZIP"** aus dem Dropdown-Menü
@@ -41,9 +44,9 @@ Du hast zwei Möglichkeiten, dieses Projekt auf deinem Computer zu verwenden:
 5. **Navigiere zu dem entpackten Ordner** und öffne ihn
 6. **Weiter zum nächsten Schritt:** [Projekt bauen und ausführen](#-projekt-ausführen)
 
-### Option 2: Git Clone (Fortgeschritten)
+### Option 2: Git Clone
 
-Falls Sie Git bereits verwenden oder lernen möchten:
+(Fortgeschritten) Falls Sie Git bereits verwenden oder lernen möchten:
 
 #### Voraussetzungen:
 
