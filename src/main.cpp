@@ -19,8 +19,9 @@ typedef enum { K0 = 0, K1, K2, K3, K4, K5, K6, K7 } CHANNEL;
 /** ------------------------------------------------------------------
 
                       Funktionsdeklarationen
-                      *als vorwärtsdeklaration
-                      (für Defintionen siehe unten)
+                      *als Vorwärtsdeklarationen
+                      (die Funktionsdefinitionen finden Sie unten (ab Zeile
+                      128))
 
 ------------------------------------------------------------------- */
 
@@ -70,13 +71,13 @@ BYTE OutputByte(PORT PortName, BYTE WriteValue);
 int readPoti(BYTE* valPoti);
 
 /** ==================================================================
-                    Deklarationen Ihrer Funktionen ⬇
+                    Ihre Funktionsdeklarationen ⬇
 =================================================================== **/
 //
 //
 //
 /** ==================================================================
-                    Deklarationen Ihrer Funktionen ⬆
+                    Ihre Funktionsdeklarationen ⬆
 ================================================================== **/
 
 /**  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -180,7 +181,7 @@ int readPoti(BYTE* valPoti) {
 }
 
 /** ==================================================================
-                    Defintionen Ihrer Funktionen ⬇
+                      Ihre Funktionsdefinitionen ⬇
 =================================================================== **/
 
 //
@@ -192,5 +193,5 @@ int readPoti(BYTE* valPoti) {
 //
 
 /** ==================================================================
-                      Defintionen Ihrer Funktionen ⬆
+                      Ihre Funktionsdefinitionen ⬆
   ================================================================ **/
