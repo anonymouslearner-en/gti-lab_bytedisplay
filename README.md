@@ -55,8 +55,9 @@ Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 ### Option 2: Git Clone
 
 (Fortgeschritten - falls Sie Git bereits verwenden oder lernen möchten)
+<br>
+**⚠️Voraussetzungen:** Git ist auf Ihrem Computer bereits installiert<br><br>
 Sie können eine lokale Kopie von diesem Projekt auf Ihrem Rechner erstellen, indem Sie dieses Repository klonen.
-**Voraussetzungen:** Git ist auf Ihrem Computer bereits installiert
 
 1. Erstelle einen **neuen, leeren Ordner** für das Projekt
 
