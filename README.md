@@ -55,12 +55,25 @@ Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 ### Option 2: Git Clone
 
 (Fortgeschritten - falls Sie Git bereits verwenden oder lernen möchten)
-
+Sie können eine lokale Kopie von diesem Projekt auf Ihrem Rechner erstellen, indem Sie dieses Repository klonen.
 **Voraussetzungen:** Git ist auf Ihrem Computer bereits installiert
 
+1. Erstelle einen neuen, leeren Ordner für das Projekt
+
+2. Ordner in VS Code öffnen
+
+3. Terminal in VS Code öffnen
+
+4. Repository in aktuellen Ordner klonen
+
+Kopiere den folgenden Terminal-Befehl und füge ihn in dein Terminal ein:
+
 ```bash
-git clone https://github.com/anonymouslearner-en/gti-lab_bytedisplay.git
+git clone https://github.com/anonymouslearner-en/gti-lab_bytedisplay.git .
 ```
+
+> [!CAUTION]
+> Der **Punkt (.)** am Ende nicht vergessen (bedeutet "in aktuellen Ordner klonen")
 
 ## ⚙️ Projekt ausführen
 
