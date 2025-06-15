@@ -9,7 +9,8 @@
 
 [1]: https://wokwi.com/projects/399199668591202305
 
-> [!TIP] > **→ [Zum eigentlichen Aufgabenblatt klicke hier][2]**
+> [!IMPORTANT]
+> **→ [Zum eigentlichen Aufgabenblatt klicke hier][2]**
 
 [2]: AUFGABE.md
 
