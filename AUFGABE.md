@@ -10,14 +10,21 @@ realisiert werden.
 > [!WARNING]
 > Bitte nutzen Sie anstatt des bekannten int main(void) Aufbaus eine void setup() + void loop() Struktur, wie folgend dargestellt. Die Funktion setup() wird dabei bei der Abarbeitung einmal durchlaufen und die Funktion loop() anschließend permanent.
 
-Folgende Pin Belegung ist zu beachten
-Port B
-Bit 0/1/2/3/4/5/6/7
-Bez yG/yDig1/yDig2/yDig3/yDig4/Res/Res/Res
+Folgende Pin Belegung ist zu beachten:
 
-Port D
-Bit 0/1/2/3/4/5/6/7
-Bez Res/Res/yA/yB/yC/yD/yE/yF
+**Port B**
+
+| Bit     | 0   | 1     | 2     | 3     | 4     | 5   | 6   | 7   |
+| ------- | --- | ----- | ----- | ----- | ----- | --- | --- | --- |
+| **Bez** | yG  | yDig1 | yDig2 | yDig3 | yDig4 | Res | Res | Res |
+
+<br>
+
+**Port D**
+
+| Bit     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| ------- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Bez** | Res | Res | yA  | yB  | yC  | yD  | yE  | yF  |
 
 - [ ] R1: Das eingelesene Byte soll als Dezimaläquivalent auf der
       Siebensegmentanzeige fortwährend dargestellt werden.
