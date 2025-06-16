@@ -50,7 +50,7 @@ Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 3. **Entpacke die ZIP-Datei** in einen Ordner deiner Wahl
 4. **Öffne VS Code** und wähle "File" → "Open Folder"
 5. **Navigiere zu dem entpackten Ordner** und öffne ihn
-6. **Weiter zum nächsten Schritt:** [Projekt bauen und ausführen](#projekt-ausführen)
+6. **Weiter zum nächsten Schritt:** [Projekt bauen und ausführen](#gear-projekt-ausführen)
 
 ### Option 2: Git Clone
 
@@ -147,9 +147,9 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 > - Überprüfen Sie alle Verbindungen vor dem Einschalten
 > - Achten Sie auf korrekte Spannung und Polarität
 
-[^1]: [Die PlatformIO Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)<br>
-[^2]:
-    [Die Wokwi Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode)
+[^1]: [Die PlatformIO Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
+[^2]: [Die Wokwi Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode)
 
-    Here is the second footnote.<br>
+---
+
     [Zurück zum Anfang :arrow_up:](#top)
