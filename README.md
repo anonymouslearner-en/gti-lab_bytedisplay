@@ -28,8 +28,8 @@
 ## Voraussetzungen
 
 - VS Code installiert
-- PlatformIO Extension für VS Code
-- Wokwi Extension für VS Code
+- PlatformIO Extension für VS Code.[^1]
+- Wokwi Extension für VS Code.[^2]
 
 ## :computer: Projekt lokal einrichten
 
@@ -80,4 +80,7 @@ Sie können eine lokale Kopie von diesem Projekt auf Ihrem Rechner erstellen, in
 
 ## 🤝 Feedback
 
-[Zurück zum Anfang :arrow_up:](#top)
+[^1]: This is footnote number one. <br>
+[^2]:
+    Here is the second footnote.<br>
+    [Zurück zum Anfang :arrow_up:](#top)
