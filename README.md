@@ -91,7 +91,11 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
    Klicken Sie auf das VS Code Environment unten und wählen Sie wokwi aus.
    <img src="https://raw.githubusercontent.com/anonymouslearner-en/gti-lab_bytedisplay/refs/heads/master/assets/EnvGUISelect.png?raw=true" width="450" height="auto">
    <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/EnvOptions.png?raw=true" width="450" height="auto">
+   <br>
+   <br>
+   <br>
    ODER: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → "Pick Project Environment" eingeben und wokwi verwenden
+   <br>
    <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/EnvOptions.png?raw=true" width="450" height="auto">
 
 2. Das **Projekt kompilieren**
@@ -128,6 +132,9 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
    Klicken sie auf das VS Code Environment unten und wählen uno aus.
    <br> <img src="https://raw.githubusercontent.com/anonymouslearner-en/gti-lab_bytedisplay/refs/heads/master/assets/EnvGUISelect.png?raw=true" width="450" height="auto">
    <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/EnvOptions.png?raw=true" width="450" height="auto">
+   <br>
+   <br>
+   <br>
    ODER: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → "Pick Project Environment" eingeben und uno verwenden
 
 4. Das **Projekt kompilieren**
