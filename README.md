@@ -89,15 +89,26 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 1. Stellen Sie **das richtige Environment** sicher!
    <br>
    Klicken Sie auf das VS Code Environment unten und wählen Sie wokwi aus.
-
+   <img src="https://raw.githubusercontent.com/anonymouslearner-en/gti-lab_bytedisplay/refs/heads/master/assets/EnvGUISelect.png?raw=true" width="450" height="auto">
+   <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/EnvOptions.png?raw=true" width="450" height="auto">
    ODER: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → "Pick Project Environment" eingeben und wokwi verwenden
+   <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/EnvOptions.png?raw=true" width="450" height="auto">
 
 2. Das **Projekt kompilieren**
+
    - Klicken Sie auf das PlatformIO Icon in der Seitenleiste → "Project Tasks" → "Build"
+     <br>
+     <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/PlatformIOExtensionSelect.png?raw=true" width="350" height="auto">
+     <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/PIO-Build(ExtensionSidebar).png?raw=true" width="500" height="auto">
+
    - ODER nutzen Sie die Tastenkombination: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → geben Sie "PlatformIO: Build" ein
+     <br>
+     <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/PIO-Build(PromptWindow).png?raw=true" width="350" height="auto">
+
 3. Wokwi **Simulator starten**:
    - `Cmd+Shift+P` / `Ctrl+Shift+P`
    - "Wokwi: Start Simulator" eingeben
+     <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/WokwiStartSim(PromptWindow).png?raw=true" width="350" height="auto">
 
 ### Mit Arduino Uno (vorkonfiguriert)
 
@@ -115,7 +126,8 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 3. Stellen Sie **das richtige Environment** sicher!
    <br>
    Klicken sie auf das VS Code Environment unten und wählen uno aus.
-
+   <br> <img src="https://raw.githubusercontent.com/anonymouslearner-en/gti-lab_bytedisplay/refs/heads/master/assets/EnvGUISelect.png?raw=true" width="450" height="auto">
+   <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/EnvOptions.png?raw=true" width="450" height="auto">
    ODER: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → "Pick Project Environment" eingeben und uno verwenden
 
 4. Das **Projekt kompilieren**
