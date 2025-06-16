@@ -91,7 +91,11 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
    Klicken Sie auf das VS Code Environment unten und wählen Sie wokwi aus.
    <img src="https://raw.githubusercontent.com/anonymouslearner-en/gti-lab_bytedisplay/refs/heads/master/assets/EnvGUISelect.png?raw=true" width="450" height="auto">
    <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/EnvOptions.png?raw=true" width="450" height="auto">
+   <br>
+   <br>
+   <br>
    ODER: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → "Pick Project Environment" eingeben und wokwi verwenden
+   <br>
    <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/EnvOptions.png?raw=true" width="450" height="auto">
 
 2. Das **Projekt kompilieren**
@@ -103,12 +107,16 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 
    - ODER nutzen Sie die Tastenkombination: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → geben Sie "PlatformIO: Build" ein
      <br>
+     <p align="left">
      <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/PIO-Build(PromptWindow).png?raw=true" width="350" height="auto">
+     </p>
 
 3. Wokwi **Simulator starten**:
    - `Cmd+Shift+P` / `Ctrl+Shift+P`
    - "Wokwi: Start Simulator" eingeben
+     <br>
      <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/WokwiStartSim(PromptWindow).png?raw=true" width="350" height="auto">
+     <br>
 
 ### Mit Arduino Uno (vorkonfiguriert)
 
@@ -128,6 +136,9 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
    Klicken sie auf das VS Code Environment unten und wählen uno aus.
    <br> <img src="https://raw.githubusercontent.com/anonymouslearner-en/gti-lab_bytedisplay/refs/heads/master/assets/EnvGUISelect.png?raw=true" width="450" height="auto">
    <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/EnvOptions.png?raw=true" width="450" height="auto">
+   <br>
+   <br>
+   <br>
    ODER: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → "Pick Project Environment" eingeben und uno verwenden
 
 4. Das **Projekt kompilieren**
@@ -161,7 +172,3 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 
 [^1]: [Die PlatformIO Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 [^2]: [Die Wokwi Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode)
-
----
-
-    [Zurück zum Anfang :arrow_up:](#top)
