@@ -21,9 +21,9 @@
   - [Option 1: ZIP-Download](#option-1-zip-download)
   - [Option 2: Git Clone](#option-2-git-clone)
 - [Projekt ausführen](#gear-projekt-ausführen)
-  - [Mit Wokwi-Simulator]()
-  - [Mit Hardware µC]()![Coming Soon](https://img.shields.io/badge/Coming%20Soon-blue)
-- [Feedback](#handshake-feedback)
+  - [Mit Wokwi-Simulator (empfohlen)](#mit-wokwi-simulator)
+  - [Mit Arduino](#mit-arduino-uno-vorkonfiguriert)
+  - [Mit anderem µC](#mit-anderem-mikrocontroller)
 
 ## Voraussetzungen
 
@@ -88,14 +88,14 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 
 1. Stellen Sie **das richtige Environment** sicher!
    <br>
-   Klicken sie auf das VS Code Environment unten und wählen wokwi aus.
+   Klicken Sie auf das VS Code Environment unten und wählen Sie wokwi aus.
 
    ODER: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → "Pick Project Environment" eingeben und wokwi verwenden
 
-2. Das Projekt kompilieren
+2. Das **Projekt kompilieren**
    - Klicken Sie auf das PlatformIO Icon in der Seitenleiste → "Project Tasks" → "Build"
    - ODER nutzen Sie die Tastenkombination: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → geben Sie "PlatformIO: Build" ein
-3. Nach erfolgreichem Build:
+3. Wokwi **Simulator starten**:
    - `Cmd+Shift+P` / `Ctrl+Shift+P`
    - "Wokwi: Start Simulator" eingeben
 
@@ -118,7 +118,7 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 
    ODER: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → "Pick Project Environment" eingeben und uno verwenden
 
-4. Das Projekt kompilieren
+4. Das **Projekt kompilieren**
 
    - Klicken Sie auf das PlatformIO Icon in der Seitenleiste → "Project Tasks" → "Build"
    - ODER nutzen Sie die Tastenkombination: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows) → geben Sie "PlatformIO: Build" ein
@@ -139,17 +139,17 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
    framework = arduino
    ```
 3. Aktualisieren Sie die Pin-Zuweisungen im Code entsprechend
-4. Folgen Sie dann den [Schritten wie beim Arduino Uno]()
+4. Folgen Sie dann den [Schritten 3-5 vom Abschnitt "Mit Arduino Uno"](#mit-arduino-uno-vorkonfiguriert)
 
 > [!WARNING]
-> Bei Verwendung echter Hardware:
+> Bei Verwendung Ihrer Hardware:
 >
 > - Überprüfen Sie alle Verbindungen vor dem Einschalten
 > - Achten Sie auf korrekte Spannung und Polarität
 
-## :handshake: Feedback
-
-[^1]: This is footnote number one. <br>
+[^1]: [Die PlatformIO Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)<br>
 [^2]:
+    [Die Wokwi Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode)
+
     Here is the second footnote.<br>
     [Zurück zum Anfang :arrow_up:](#top)
