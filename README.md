@@ -56,7 +56,9 @@ Sie haben zwei Möglichkeiten, dieses Projekt auf Ihrem Computer zu verwenden:
 
 (Fortgeschritten - falls Sie Git bereits verwenden oder lernen möchten)
 <br>
-**⚠️Voraussetzungen:** Git ist auf Ihrem Computer bereits installiert<br><br>
+**⚠️Voraussetzungen:** Git ist auf Ihrem Computer bereits installiert.[^3]
+<br>
+<br>
 Sie können eine lokale Kopie von diesem Projekt auf Ihrem Rechner erstellen, indem Sie dieses Repository klonen.
 
 1. Erstelle einen **neuen, leeren Ordner** für das Projekt
@@ -86,8 +88,7 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 
 ### Mit Wokwi-Simulator
 
-> [!NOTE]
-> **Wokwi-Lizenz erforderlich:** Für die Verwendung der `diagram.json` Datei benötigen Sie ein kostenloses Wokwi-Konto. Siehe [Wokwi-Lizenz einrichten](#wokwi-lizenz-einrichten) unten.
+> [!NOTE] > **Wokwi-Lizenz erforderlich:** Für die Verwendung der `diagram.json` Datei benötigen Sie ein kostenloses Wokwi-Konto. Siehe [Wokwi-Lizenz einrichten](#wokwi-lizenz-einrichten) unten.
 
 1. Stellen Sie **das richtige Environment** sicher!
    <br>
@@ -191,3 +192,4 @@ Falls Sie eine Fehlermeldung bezüglich der `diagram.json` Datei erhalten, benö
 
 [^1]: [Die PlatformIO Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 [^2]: [Die Wokwi Extension können Sie hier finden](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode)
+[^3]: [Git auf Ihrem Rechner installieren](https://git-scm.com/downloads)
