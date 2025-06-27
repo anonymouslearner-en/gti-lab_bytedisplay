@@ -86,6 +86,8 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 
 ### Mit Wokwi-Simulator
 
+> [!NOTE] > **Wokwi-Lizenz erforderlich:** Für die Verwendung der `diagram.json` Datei benötigen Sie ein kostenloses Wokwi-Konto. Siehe [Wokwi-Lizenz einrichten](#wokwi-lizenz-einrichten) unten.
+
 1. Stellen Sie **das richtige Environment** sicher!
    <br>
    Klicken Sie auf das VS Code Environment unten und wählen Sie wokwi aus.
@@ -117,6 +119,22 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
      <br>
      <img src="https://github.com/anonymouslearner-en/gti-lab_bytedisplay/blob/master/assets/WokwiStartSim(PromptWindow).png?raw=true" width="350" height="auto">
      <br>
+
+#### Wokwi-Lizenz einrichten
+
+Falls Sie eine Fehlermeldung bezüglich der `diagram.json` Datei erhalten, benötigen Sie eine (kostenlose) Wokwi-Lizenz:
+
+1. **Kostenloses Wokwi-Konto erstellen:**
+
+   - Erstelle Sie in [wokwi.com](https://wokwi.com) ein kostenloses Konto
+
+2. **Lizenz-Token in VS Code einfügen:**
+
+   - Nach der Anmeldung auf Wokwi.com gehen Sie zu Ihren Account-Einstellungen
+   - Kopieren Sie Ihren Lizenz-Token
+   - In VS Code: `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (Windows)
+   - Geben Sie "Wokwi: Request License" ein
+   - Fügen Sie Ihren Token ein
 
 ### Mit Arduino Uno (vorkonfiguriert)
 
