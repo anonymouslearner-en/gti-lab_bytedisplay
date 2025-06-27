@@ -21,9 +21,9 @@
   - [Option 1: ZIP-Download](#option-1-zip-download)
   - [Option 2: Git Clone](#option-2-git-clone)
 - [Projekt ausführen](#gear-projekt-ausführen)
-  - [Mit Wokwi-Simulator (empfohlen)](#mit-wokwi-simulator)
-  - [Mit Arduino](#mit-arduino-uno-vorkonfiguriert)
-  - [Mit anderem µC](#mit-anderem-mikrocontroller)
+  - [Option 1(empfohlen): Mit Wokwi-Simulator](#mit-wokwi-simulator)
+  - [Option 2: Mit Arduino](#mit-arduino-uno-vorkonfiguriert)
+  - [Option 3: Mit anderem µC](#mit-anderem-mikrocontroller)
 
 ## Voraussetzungen
 

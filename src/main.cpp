@@ -121,8 +121,8 @@ void loop() {
       Do nothing more, wegen Umstrickung main() --> loop(), nach Fehler
       "Abbruch"
   */
-  // while (1) {
-  // }
+  while (1) {
+  }
 }
 
 /** ------------------------------------------------------------------
