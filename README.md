@@ -86,7 +86,8 @@ Dieses Projekt kann auf drei Arten ausgeführt werden:
 
 ### Mit Wokwi-Simulator
 
-> [!NOTE] > **Wokwi-Lizenz erforderlich:** Für die Verwendung der `diagram.json` Datei benötigen Sie ein kostenloses Wokwi-Konto. Siehe [Wokwi-Lizenz einrichten](#wokwi-lizenz-einrichten) unten.
+> [!NOTE]
+> **Wokwi-Lizenz erforderlich:** Für die Verwendung der `diagram.json` Datei benötigen Sie ein kostenloses Wokwi-Konto. Siehe [Wokwi-Lizenz einrichten](#wokwi-lizenz-einrichten) unten.
 
 1. Stellen Sie **das richtige Environment** sicher!
    <br>
